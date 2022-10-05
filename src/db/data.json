@@ -1,0 +1,60 @@
+{
+  "foods":[
+    {
+      "id" : 1,
+      "category" : "고기,구이",
+      "name" : "마부자 생삼겹살",
+      "addr" : "서울특별시 마포구 월드컵로1길 14 B121호",
+
+      "visited" : false
+    },
+    {
+      "id" : 2,
+      "category" : "양식",
+      "name" : "Ori",
+      "addr" : "대한민국 서울특별시 용산구 보광동 273-3",
+      "visited" : false
+    }
+  ],
+  "categories":[
+    {
+      "id" : 1,
+      "category" : "고기,구이"
+    },
+    {
+      "id":2,
+      "category":"양식"
+    },
+    {
+      "id":3,
+      "category" : "족발,보쌈"
+    },
+    {
+      "id":4,
+      "category" : "찜,탕,찌개"
+    },
+    {
+      "id":5,
+      "category" : "돈까스,회,일식"
+    },
+    {
+      "id":6,
+      "category" :"피자"
+    },
+    {
+      "id" : 7,
+      "category" : "치킨"
+    },
+    {
+      "id" : 8,
+      "category" : "중식"
+    },
+    {
+      "id" : 9,
+      "category" : "아시안"
+    }
+
+  ]
+
+
+}
