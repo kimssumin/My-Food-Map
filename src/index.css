@@ -3,31 +3,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
 }
 
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
 a {
   text-decoration: none;
   color: #333;
+  text-align: center;
 }
 
 .App {
-  width: 800px;
   margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  align-items : center;
+  padding : 20px;
+  margin-top : 50px;
 }
 
 .header {
@@ -35,29 +30,38 @@ a {
 }
 
 .header .menu {
-  position: absolute;
+  position: relative;
   top: 10px;
-  right: 0;
+  padding: 10px 0 50px 0;
+  align-items: center;
+  margin-left : 60px;
 }
 
 .header .link {
-  border: 1px solid #333;
-  padding: 10px;
-  margin-left: 10px;
-  background-color: #efefef;
-  font-weight: bold;
+  background-color: #b5d6dd;
+  padding : 10px 20px  10px 20px;
+  font-size:17px;
+  font-weight: bolder;
   border-radius: 4px;
+  margin-right : 20px;
 }
 
 .list_category {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap:wrap;
 }
 
-.list_category li {
-  flex: 30% 0 0;
-  box-sizing: border-box;
+.lists {
   padding: 10px;
+  margin: 20px;
+  background-color: black ; 
+  width: 25%;
+  color: #fff;
+  font-weight: lighter;
+  line-height: 40px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .list_category a {
@@ -66,16 +70,8 @@ a {
   font-weight: lighter;
   line-height: 40px;
   color: #fff;
-  text-align: center;
-  border-radius: 10px;
-  background-color: dodgerblue;
 }
 
-
-.off td {
-  background: #eee;
-  color: #ccc;
-}
 
 .btn_del {
   margin-left: 100px;
@@ -124,4 +120,29 @@ button {
   width: 400px;
   height: 40px;
   font-size: 20px;
+}
+
+@media only screen and (max-width:800px) {
+  
+  .list_category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .lists {
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    width: 40%;
+    color: #fff;
+    font-weight: lighter;
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .App{
+    margin:0px;
+  }
 }
