@@ -11,7 +11,7 @@ export default function CategoryList(){
     <div className = "list_category">
     {categories.map(category =>(
       <div className = "lists" key = {category.id}>
-        <Link to={`/category/${category.category}`}>{category.icon}<br></br>{category.category}</Link>
+        <Link to={`/category/${category.category}`}><span>{category.icon}</span><br></br>{category.category}</Link>
       </div>
     ))}
     </div>
