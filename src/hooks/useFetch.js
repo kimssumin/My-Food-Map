@@ -12,7 +12,7 @@ export default function useFetch(url){
       .then(data =>{
         setData(data);
       })
-  }, [url]) //count 일때만 실행 ((의존성))
+  }, [url]) //의존성
 
   return data
 }
