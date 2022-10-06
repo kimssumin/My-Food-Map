@@ -96,6 +96,7 @@ h1{
   width : 40%;
   font-size: 13px;
   text-align: center;
+  margin-top: -10px;
 }
 
 .about{
@@ -106,37 +107,66 @@ h1{
 
 button {
   padding: 10px;
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
   border: 0 none;
   border-radius: 6px;
+  margin-top:20px;
   padding: 10px 20px;
   color: #fff;
-  background-color: dodgerblue;
+  background-color: rgb(51, 43, 7);
+  width : 70px;
 }
 
 .input_area {
   margin-bottom: 10px;
 }
 
+::placeholder{
+  color:rgba(245, 245, 245, 0.741);
+  font-weight: lighter;
+  padding-left : 8px;
+}
+
 .input_area label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .input_area input {
-  width: 400px;
-  height: 40px;
-  font-size: 20px;
+  width: 380px;
+  height: 38px;
+  font-size: 16px;
   padding: 0 10px;
+  border : none;
+  background-color : rgba(53, 39, 39, 0.366);
+  color : whitesmoke;
+  border-radius : 5px;
 }
 
 .input_area select {
+
   width: 400px;
-  height: 40px;
-  font-size: 20px;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 16px;
+  background-color: rgba(53, 39, 39, 0.366);
+  color: rgba(245, 245, 245, 0.841);
+  font-weight: lighter;
+  border: none;
+  border-radius: 5px;
 }
+
+.about{
+  display : flex;
+  justify-content: center;
+}
+
+.index{
+  text-align: left;
+}
+
 
 @media only screen and (max-width:800px) {
   
@@ -170,6 +200,10 @@ button {
 
 .header .link:hover{
   background-color: #533a00b7;
+}
+
+.header .link:focus{
+  border: 2.5px solid #f7efe8 ;
 }
 
 a:hover{
