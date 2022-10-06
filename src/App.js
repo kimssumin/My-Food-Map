@@ -6,7 +6,7 @@ import Category from './component/Category';
 import EmptyPage from './component/EmptyPage';
 import CreateFood from './component/CreateFood';
 import CreateCategory from './component/CreateCategory';
-
+import Visit from './component/Visit';
 
 function App() {
   return (
@@ -22,6 +22,8 @@ function App() {
           <Route path = "/create_food" element = {<CreateFood/>}>
           </Route>
           <Route path = "/create_category" element = {<CreateCategory/>}>
+          </Route>
+          <Route path = "/visit" element = {<Visit/>}>
           </Route>
           <Route path = "*" element = {<EmptyPage />}> 
           </Route>
