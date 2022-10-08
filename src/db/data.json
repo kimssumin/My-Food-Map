@@ -24,7 +24,8 @@
       "main": "삼겹살",
       "addr": "ㅇ",
       "isDone": false,
-      "id": 3
+      "id": 3,
+      "visited": false
     }
   ],
   "categories": [
@@ -72,6 +73,11 @@
       "id": 9,
       "category": "아시안",
       "icon": "🍲"
+    },
+    {
+      "category": "분식",
+      "icon": "🍢",
+      "id": 10
     }
   ]
 }

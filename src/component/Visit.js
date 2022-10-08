@@ -7,6 +7,7 @@ export default function Visit(){
   return(
     <>
     <h2>Visited</h2>
+    <p>{foods.length} 개의 검색결과가 있습니다</p>
     <div className='visited'>
       {foods.map(food =>(
           <Food food={food} key = {food.id}/>

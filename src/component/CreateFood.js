@@ -36,7 +36,7 @@ export default function CreateFood(){
         }),
       }).then(res => {
         if (res.ok) {
-          alert("생성이 완료 되었습니다");
+          alert("추가가 완료 되었습니다");
           history(`/category/${category}`);
           setIsLoading(false);
         }
@@ -50,6 +50,8 @@ export default function CreateFood(){
   const categoryRef = useRef(null);
   
   return (
+    <>
+    <p>추가하고자 하는 가게정보를 입력해주세요!</p>
     <form  onSubmit={onSubmit}> 
       <div className="input_area">
         <label>Store Name</label>
@@ -82,5 +84,6 @@ export default function CreateFood(){
         {isLoading ? "Saving..." : "저장"}
       </button>
     </form>
+    </>
   ) 
 }

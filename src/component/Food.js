@@ -25,7 +25,7 @@ export default function Food({food : f}){
   }
 
   function del(){
-    if (window.confirm('삭제하시겠습니까?')){
+    if (window.confirm('정말 삭제하시겠습니까?')){
       fetch(`http://localhost:3001/foods/${food.id}`,{
         method : "DELETE",
 

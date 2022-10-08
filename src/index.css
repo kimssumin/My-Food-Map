@@ -160,13 +160,19 @@ button {
 }
 
 
+p{
+  font-size: 14px;
+  margin-top:3px;
+}
+
 h2{
   font-size : 18px;
   border :rgba(17, 13, 13, 0.305) solid 3px;
   border-radius: 10px;
   background-color:rgba(216, 144, 10, 0.741);
   color : rgba(17, 13, 13, 0.829);
-  width:100px;
+  width:max-content;
+  padding : 10px;
   padding-top:5px;
   padding-bottom: 5px;
   margin:auto;

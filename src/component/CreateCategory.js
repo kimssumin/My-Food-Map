@@ -26,7 +26,7 @@ export default function CreateCategory() {
         }),
       }).then(res => {
         if (res.ok) {
-          alert("생성이 완료 되었습니다");
+          alert("새로운 카테고리 생성이 완료 되었습니다");
           history(`/`);
           setIsLoading(false);
         }
@@ -40,6 +40,8 @@ export default function CreateCategory() {
 
 
   return (
+    <>
+    <p>추가하고자 하는 카테고리를 입력해주세요!</p>
     <form  onSubmit={onSubmit}> 
       <div className="input_area">
         <label>Category Name</label>
@@ -47,7 +49,7 @@ export default function CreateCategory() {
       </div>
       <div className="input_area">
         <label>Category Icon</label>
-        <input type="text" placeholder="카테고리 아이콘" ref={iconRef} />
+        <input type="text" placeholder="아이콘을 입력해주세요" ref={iconRef} />
       </div>
 
       <button
@@ -58,5 +60,6 @@ export default function CreateCategory() {
         {isLoading ? "Saving..." : "저장"}
       </button>
     </form>
+    </>
   );
 }
