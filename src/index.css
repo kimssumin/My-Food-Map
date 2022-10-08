@@ -28,6 +28,7 @@ a {
 h1{
   align-items : center;
   padding : 10px;
+  margin-left:13px;
 }
 
 .header {
@@ -39,7 +40,8 @@ h1{
   top: 10px;
   padding: 10px 0 50px 0;
   align-items: center;
-  margin-left : 56px;
+  margin : auto;
+  margin-left : 30px;
 }
 
 .header .link {
@@ -93,17 +95,16 @@ h1{
   margin-left: 100px;
   color: #fff;
   background-color: firebrick;
-  width : 40%;
+  width : fit-content;
+  padding : 12px;
+  padding-top : 7px;
+  padding-bottom: 7px;
   font-size: 13px;
   text-align: center;
   margin-top: -10px;
 }
 
-.about{
-  position:relative;
-  display : flex;
-  align-items: center;
-}
+
 
 button {
   padding: 10px;
@@ -158,14 +159,55 @@ button {
   border-radius: 5px;
 }
 
-.about{
+
+h2{
+  font-size : 18px;
+  border :rgba(17, 13, 13, 0.305) solid 3px;
+  border-radius: 10px;
+  background-color:rgba(216, 144, 10, 0.741);
+  color : rgba(17, 13, 13, 0.829);
+  width:100px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin:auto;
+  margin-top : 30px;
+  
+}
+.about {
   display : flex;
+  align-items: center;
   justify-content: center;
+  margin-top : 30px;
+}
+
+.visited{
+  display : block;
 }
 
 .index{
   text-align: left;
+  font-size: 17px;
+  width: 40%;
+  margin-left : 100px;
+
 }
+
+.bold{
+  font-weight:600;
+  background-color: rgba(216, 144, 10, 0.741);
+  width:max-content;
+  height:max-content;
+  padding:0px 7px 2px 7px;
+  border-radius: 2px;
+  margin-left : 10px;
+  margin-right: 10px;
+}
+
+input[type=checkbox] {
+  zoom: 1.4;
+  accent-color: rgb(85, 55, 12);
+}
+
 
 
 @media only screen and (max-width:800px) {
@@ -208,4 +250,8 @@ button {
 
 a:hover{
   color :#533a00ed;
+}
+
+h2:hover{
+  border-color :rgb(57, 39, 8);
 }

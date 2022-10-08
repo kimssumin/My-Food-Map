@@ -47,13 +47,13 @@ export default function Food({food : f}){
       <input type = "checkbox" checked = {visited} onChange = {toggleDone}/>
       <div className="index">
         <div className='food_name'>
-          🍽 Name | {food.name}
+          😋 <span className="bold">Name</span> {food.name}
         </div>
         <div className="food_addr">
-          🍽 Address | {food.addr}
+          😋 <span className="bold">Address</span> {food.addr}
         </div>
         <div className="main_dish">
-          🍽 Recommend | {food.main}
+          😋 <span className="bold">Recommend</span>{food.main}
         </div>
       </div>
       

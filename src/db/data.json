@@ -17,6 +17,14 @@
       "icon": "🍝",
       "main": "우니파스타",
       "visited": true
+    },
+    {
+      "name": "정숙성",
+      "category": "고기,구이",
+      "main": "삼겹살",
+      "addr": "ㅇ",
+      "isDone": false,
+      "id": 3
     }
   ],
   "categories": [

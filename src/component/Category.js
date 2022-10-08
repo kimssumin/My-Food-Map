@@ -11,13 +11,11 @@ export default function Category(){
   return (
     <>
     <h2>{category}</h2>
-    <table className="Category">
-      <tbody>
+    <div className='about_all'>
         {foods.map(food =>(
           <Food food={food} key = {food.id}/>
         ))}
         
-      </tbody>
-    </table>
+    </div>
   </>)
 }
