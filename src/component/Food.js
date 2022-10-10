@@ -1,9 +1,15 @@
 import {useState} from 'react'
 
+
 export default function Food({food : f}){
 
   const [food, setfood] = useState(f);
+  const [isShow, setIsShow] = useState(false);
   const [visited, setvisited] = useState(food.visited);
+
+  function toggleShow(){
+    setIsShow(!isShow)
+  }
 
   function toggleDone(){
     fetch(`http://localhost:3001/foods/${food.id}`, {
@@ -55,11 +61,21 @@ export default function Food({food : f}){
         <div className="main_dish">
           😋 <span className="bold">Recommend</span>{food.main}
         </div>
+        <div className="review">
+          {isShow && food.review}
+        </div>
       </div>
       
       <div className="buttons">
+        <button onClick = {toggleShow} className = "btn_rvshow">
+            리뷰 {isShow ? "숨기기" : "보기"}</button>
+        
         <button onClick = {del} className = "btn_del">삭제</button>
       </div>
     </div> 
   )
+  
 }
+
+
+//<Link to ="/create_review" className="btn_append">리뷰 추가</Link>
