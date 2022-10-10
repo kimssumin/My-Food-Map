@@ -1,5 +1,4 @@
 import Header from './component/Header';
-import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import CategoryList from './component/CategoryList';
 import Category from './component/Category';
