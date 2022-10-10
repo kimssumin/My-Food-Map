@@ -1,5 +1,7 @@
 # My-Food-Map 🗺🍽
 
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" width="100" height="32"/></a><br>
+
 In the project directory, you can run:
 
 ### `npm start`
