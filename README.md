@@ -17,15 +17,19 @@ You may also see any lint errors in the console.
 
 ---
 
-## Browser support
+## **Browser support**
 
 <img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=Google Chrome&logoColor=white" width="100" height="32"/> <img src="https://img.shields.io/badge/Microsoft Edge-0078D7?style=flat-square&logo=Microsoft Edge&logoColor=white" width="150" height="32"/>
 
-## Project
+## **Project**
+
+---
 
 ### 🔹 Main Page
 
 <img src = "https://user-images.githubusercontent.com/96935132/194837901-7add507b-5a00-46e7-925a-7a897ac4baf4.png" width = 100%>
+
+- 카테고리 별로 나누어 확인할 수 있는 섹션과, 가게와 카테고리를 추가할 수 있는 섹션으로 나누어 구현
 
 ### 🔹 Create Page
 
@@ -38,6 +42,8 @@ You may also see any lint errors in the console.
 ### 🔹 Review & Visited Page
 
 <img src = "https://user-images.githubusercontent.com/96935132/194841106-43fd6b99-0db3-4c7b-9530-c2c61a3bfd87.JPG" width = 100%>
+  
+  - 리뷰 추가 부분 구현 과정에 있습니다.
 
 ## Directory Structure
 
